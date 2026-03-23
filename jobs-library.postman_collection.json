@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "77189f7f-85d1-4123-b1d5-82b52479f64c",
+		"name": "Jobs Library API",
+		"description": "Collection of GraphQL requests for the Jobs Library Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "Get Jobs (Paginated & Filtered)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query GetJobs($query: String, $status: String, $page: Int, $pageSize: Int) {\n  jobs(query: $query, status: $status, page: $page, pageSize: $pageSize) {\n    jobs {\n      id\n      jobTitle\n      department\n      level\n      location\n      marketMedian\n      internalMedian\n      compaRatio\n      status\n    }\n    totalCount\n    totalPages\n  }\n}",
+								"variables": "{\n  \"query\": \"\",\n  \"status\": \"active\",\n  \"page\": 1,\n  \"pageSize\": 10\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Job by ID",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query GetJob($id: ID!) {\n  job(id: $id) {\n    id\n    jobTitle\n    department\n    level\n    location\n    status\n    createdAt\n  }\n}",
+								"variables": "{\n  \"id\": \"PASTE_JOB_ID_HERE\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Departments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query { departments }",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mutations",
+			"item": [
+				{
+					"name": "Create Job",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation CreateJob($input: JobInput!) {\n  createJob(input: $input) {\n    id\n    jobTitle\n    department\n    status\n  }\n}",
+								"variables": "{\n  \"input\": {\n    \"jobTitle\": \"New API Tester\",\n    \"department\": \"Engineering\",\n    \"level\": \"Senior\",\n    \"location\": \"Remote\",\n    \"marketMedian\": 150000,\n    \"internalMedian\": 155000,\n    \"status\": \"active\",\n    \"employmentType\": \"full_time\",\n    \"remoteEligible\": true,\n    \"headcountBudget\": 2\n  }\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Job",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation UpdateJob($id: ID!, $input: JobInput!) {\n  updateJob(id: $id, input: $input) {\n    id\n    jobTitle\n    status\n  }\n}",
+								"variables": "{\n  \"id\": \"PASTE_JOB_ID_HERE\",\n  \"input\": {\n    \"jobTitle\": \"Updated API Tester\",\n    \"department\": \"Engineering\",\n    \"status\": \"draft\"\n  }\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Job",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation DeleteJob($id: ID!) {\n  deleteJob(id: $id)\n}",
+								"variables": "{\n  \"id\": \"PASTE_JOB_ID_HERE\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
