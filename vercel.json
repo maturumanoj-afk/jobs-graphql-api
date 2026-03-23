@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/graphql.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/graphql",
+      "dest": "/api/graphql.js",
+      "methods": ["GET", "POST", "OPTIONS"]
+    },
+    {
+      "src": "/health",
+      "dest": "/api/graphql.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/graphql.js"
+    }
+  ]
+}
