@@ -1,5 +1,5 @@
-import schema from './src/schema.js';
-import resolvers from './src/resolvers.js';
+import schema from './lib/schema.js';
+import resolvers from './lib/resolvers.js';
 import { createHandler } from 'graphql-http/lib/use/express';
 import dotenv from 'dotenv';
 dotenv.config();

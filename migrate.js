@@ -1,5 +1,5 @@
-import pool from './src/db.js';
-import fs from 'fs';
+import pool from './api/lib/db.js';
+import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 

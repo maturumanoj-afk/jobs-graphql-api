@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "GraphQL API for Jobs Library",
   "type": "module",
-  "main": "src/server.js",
+  "main": "api/lib/server.js",
   "scripts": {
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js",
+    "dev": "node --watch api/lib/server.js",
+    "start": "node api/lib/server.js",
     "seed": "node seed/seed.js",
     "migrate": "node migrate.js"
   },
