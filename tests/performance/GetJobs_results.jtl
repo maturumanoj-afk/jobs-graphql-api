@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1774961662910,432,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,431,0,1
+1774961663143,287,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,287,0,4
+1774961659330,4036,GetJobs Request,200,OK,GetJobs Stress 1-5,text,false,"The operation lasted too long: It took 4,036 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,25,25,http://localhost:4000/api/graphql,4036,0,1
+1774961659730,3350,GetJobs Request,200,OK,GetJobs Stress 1-7,text,false,"The operation lasted too long: It took 3,350 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,3239,0,2
+1774961659011,4070,GetJobs Request,200,OK,GetJobs Stress 1-3,text,false,"The operation lasted too long: It took 4,070 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,3953,0,89
+1774961660529,2551,GetJobs Request,200,OK,GetJobs Stress 1-11,text,false,"The operation lasted too long: It took 2,551 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,2522,0,1
+1774961659133,3948,GetJobs Request,200,OK,GetJobs Stress 1-4,text,false,"The operation lasted too long: It took 3,948 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,3823,0,2
+1774961659536,3577,GetJobs Request,200,OK,GetJobs Stress 1-6,text,false,"The operation lasted too long: It took 3,577 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,3577,0,2
+1774961660122,2958,GetJobs Request,200,OK,GetJobs Stress 1-9,text,false,"The operation lasted too long: It took 2,958 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,2841,0,2
+1774961660718,2385,GetJobs Request,200,OK,GetJobs Stress 1-12,text,false,"The operation lasted too long: It took 2,385 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,2385,0,1
+1774961660332,2748,GetJobs Request,200,OK,GetJobs Stress 1-10,text,false,"The operation lasted too long: It took 2,748 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,2729,0,1
+1774961659011,4069,GetJobs Request,200,OK,GetJobs Stress 1-2,text,false,"The operation lasted too long: It took 4,069 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,3964,0,89
+1774961662713,832,GetJobs Request,200,OK,GetJobs Stress 1-22,text,false,"The operation lasted too long: It took 832 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,26,26,http://localhost:4000/api/graphql,832,0,5
+1774961660919,2676,GetJobs Request,200,OK,GetJobs Stress 1-13,text,false,"The operation lasted too long: It took 2,676 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,26,26,http://localhost:4000/api/graphql,2676,0,2
+1774961663452,248,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,26,26,http://localhost:4000/api/graphql,248,0,0
+1774961663461,254,GetJobs Request,200,OK,GetJobs Stress 1-3,text,true,,1250,370,26,26,http://localhost:4000/api/graphql,253,0,0
+1774961663453,277,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,26,26,http://localhost:4000/api/graphql,277,0,0
+1774961663457,275,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,26,26,http://localhost:4000/api/graphql,275,0,0
+1774961661318,2507,GetJobs Request,200,OK,GetJobs Stress 1-15,text,false,"The operation lasted too long: It took 2,507 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,27,27,http://localhost:4000/api/graphql,2507,0,2
+1774961663597,255,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,255,0,0
+1774961659011,4921,GetJobs Request,200,OK,GetJobs Stress 1-1,text,false,"The operation lasted too long: It took 4,921 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,27,27,http://localhost:4000/api/graphql,4921,0,89
+1774961663345,595,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,595,0,3
+1774961663451,513,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,513,0,0
+1774961663716,254,GetJobs Request,200,OK,GetJobs Stress 1-3,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,254,0,0
+1774961663731,265,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,265,0,0
+1774961663733,272,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,271,0,0
+1774961663450,563,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,563,0,0
+1774961663451,593,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,592,0,0
+1774961661126,2919,GetJobs Request,200,OK,GetJobs Stress 1-14,text,false,"The operation lasted too long: It took 2,919 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,28,28,http://localhost:4000/api/graphql,2919,0,3
+1774961663826,243,GetJobs Request,200,OK,GetJobs Stress 1-15,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,242,0,0
+1774961659923,4156,GetJobs Request,200,OK,GetJobs Stress 1-8,text,false,"The operation lasted too long: It took 4,156 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,28,28,http://localhost:4000/api/graphql,4156,0,2
+1774961661723,2402,GetJobs Request,200,OK,GetJobs Stress 1-17,text,false,"The operation lasted too long: It took 2,402 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,28,28,http://localhost:4000/api/graphql,2402,0,11
+1774961663941,252,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,252,0,0
+1774961663701,550,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,550,0,0
+1774961663462,810,GetJobs Request,200,OK,GetJobs Stress 1-11,text,false,"The operation lasted too long: It took 810 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,29,29,http://localhost:4000/api/graphql,809,0,0
+1774961663997,277,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,277,0,0
+1774961664044,239,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,239,0,0
+1774961664014,277,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,277,0,0
+1774961663546,750,GetJobs Request,200,OK,GetJobs Stress 1-22,text,false,"The operation lasted too long: It took 750 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,29,29,http://localhost:4000/api/graphql,750,0,0
+1774961664126,226,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,226,0,0
+1774961663934,490,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,490,0,0
+1774961664194,248,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,248,0,0
+1774961663853,592,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,592,0,0
+1774961664252,248,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,248,0,0
+1774961664081,443,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,443,0,0
+1774961664273,261,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,261,0,0
+1774961664006,585,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,585,0,0
+1774961664047,558,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,558,0,0
+1774961664447,255,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,255,0,0
+1774961664443,262,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,262,0,0
+1774961664297,446,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,446,0,0
+1774961664275,470,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,470,0,0
+1774961663965,811,GetJobs Request,200,OK,GetJobs Stress 1-12,text,false,"The operation lasted too long: It took 811 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,32,32,http://localhost:4000/api/graphql,811,0,0
+1774961664535,255,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,255,0,0
+1774961664284,553,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,553,0,0
+1774961664348,526,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,525,0,3
+1774961663952,952,GetJobs Request,200,OK,GetJobs Stress 1-28,text,false,"The operation lasted too long: It took 952 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,32,32,http://localhost:4000/api/graphql,952,0,1
+1774961664706,248,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,248,0,0
+1774961664501,464,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,464,0,0
+1774961664525,445,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,445,0,0
+1774961664744,238,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,238,0,0
+1774961661533,3476,GetJobs Request,200,OK,GetJobs Stress 1-16,text,false,"The operation lasted too long: It took 3,476 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,33,33,http://localhost:4000/api/graphql,3476,0,4
+1774961664592,480,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,480,0,0
+1774961664606,483,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,483,0,0
+1774961664292,826,GetJobs Request,200,OK,GetJobs Stress 1-23,text,false,"The operation lasted too long: It took 826 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,33,33,http://localhost:4000/api/graphql,826,0,0
+1774961662513,2611,GetJobs Request,200,OK,GetJobs Stress 1-21,text,false,"The operation lasted too long: It took 2,611 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,33,33,http://localhost:4000/api/graphql,2611,0,1
+1774961664746,448,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,448,0,0
+1774961664967,232,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,232,0,0
+1774961664955,248,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,248,0,0
+1774961662122,3085,GetJobs Request,200,OK,GetJobs Stress 1-19,text,false,"The operation lasted too long: It took 3,085 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,34,34,http://localhost:4000/api/graphql,3085,0,11
+1774961662318,2890,GetJobs Request,200,OK,GetJobs Stress 1-20,text,false,"The operation lasted too long: It took 2,890 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,34,34,http://localhost:4000/api/graphql,2890,0,2
+1774961664425,817,GetJobs Request,200,OK,GetJobs Stress 1-1,text,false,"The operation lasted too long: It took 817 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,34,34,http://localhost:4000/api/graphql,817,0,0
+1774961664778,487,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,487,0,0
+1774961664070,1234,GetJobs Request,200,OK,GetJobs Stress 1-15,text,false,"The operation lasted too long: It took 1,234 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,34,34,http://localhost:4000/api/graphql,1234,0,0
+1774961665126,243,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,243,0,0
+1774961664791,587,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,587,0,0
+1774961664839,540,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,540,0,0
+1774961664875,519,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,519,0,0
+1774961664971,440,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,440,0,0
+1774961665203,234,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,234,0,0
+1774961665010,446,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,446,0,0
+1774961665208,250,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,250,0,0
+1774961664905,554,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,554,0,0
+1774961664982,543,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,543,0,0
+1774961664703,827,GetJobs Request,200,OK,GetJobs Stress 1-13,text,false,"The operation lasted too long: It took 827 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,35,35,http://localhost:4000/api/graphql,827,0,0
+1774961665074,476,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,476,0,0
+1774961665090,480,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,480,0,0
+1774961665380,254,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,254,0,0
+1774961661933,3703,GetJobs Request,200,OK,GetJobs Stress 1-18,text,false,"The operation lasted too long: It took 3,703 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,3703,0,3
+1774961665195,457,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,457,0,0
+1774961663463,2199,GetJobs Request,200,OK,GetJobs Stress 1-5,text,false,"The operation lasted too long: It took 2,199 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,2199,0,0
+1774961665457,240,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,240,0,0
+1774961665119,586,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,585,0,0
+1774961665458,251,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,251,0,0
+1774961663465,2245,GetJobs Request,200,OK,GetJobs Stress 1-4,text,false,"The operation lasted too long: It took 2,245 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,2245,0,0
+1774961665243,491,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,491,0,0
+1774961663458,2288,GetJobs Request,200,OK,GetJobs Stress 1-2,text,false,"The operation lasted too long: It took 2,288 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,2288,0,0
+1774961665265,486,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,486,0,0
+1774961665209,558,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,558,0,0
+1774961663548,2232,GetJobs Request,200,OK,GetJobs Stress 1-26,text,false,"The operation lasted too long: It took 2,232 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,2232,0,2
+1774961665395,460,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,460,0,0
+1774961665370,505,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,505,0,0
+1774961665638,253,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,253,0,0
+1774961665438,465,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,465,0,0
+1774961665379,548,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,548,0,0
+1774961665706,247,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,247,0,0
+1774961665526,474,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,474,0,0
+1774961665768,245,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,245,0,0
+1774961665781,262,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,262,0,0
+1774961665305,760,GetJobs Request,200,OK,GetJobs Stress 1-15,text,false,"The operation lasted too long: It took 760 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,760,0,0
+1774961665856,234,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,234,0,0
+1774961665531,578,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,578,0,0
+1774961665551,559,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,559,0,0
+1774961665635,486,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,486,0,0
+1774961665412,732,GetJobs Request,200,OK,GetJobs Stress 1-8,text,false,"The operation lasted too long: It took 732 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,732,0,0
+1774961665460,730,GetJobs Request,200,OK,GetJobs Stress 1-28,text,false,"The operation lasted too long: It took 730 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,39,39,http://localhost:4000/api/graphql,730,0,0
+1774961665954,248,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,248,0,0
+1774961665200,1008,GetJobs Request,200,OK,GetJobs Stress 1-10,text,false,"The operation lasted too long: It took 1,008 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,39,39,http://localhost:4000/api/graphql,1008,0,0
+1774961664148,2072,GetJobs Request,200,OK,GetJobs Stress 1-29,text,false,"The operation lasted too long: It took 2,072 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,39,39,http://localhost:4000/api/graphql,2072,0,2
+1774961665698,548,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,548,0,0
+1774961665710,556,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,556,0,0
+1774961666044,250,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,250,0,0
+1774961665711,591,GetJobs Request,200,OK,GetJobs Stress 1-4,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,591,0,0
+1774961665748,576,GetJobs Request,200,OK,GetJobs Stress 1-2,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,576,0,0
+1774961666091,234,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,234,0,0
+1774961665751,591,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,591,0,0
+1774961665653,690,GetJobs Request,200,OK,GetJobs Stress 1-9,text,true,,1250,370,39,39,http://localhost:4000/api/graphql,690,0,0
+1774961665570,818,GetJobs Request,200,OK,GetJobs Stress 1-14,text,false,"The operation lasted too long: It took 818 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,39,39,http://localhost:4000/api/graphql,817,0,0
+1774961665928,475,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,475,0,0
+1774961665904,545,GetJobs Request,200,OK,GetJobs Stress 1-25,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,545,0,0
+1774961665876,574,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,574,0,0
+1774961666001,559,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,559,0,0
+1774961666295,267,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,267,0,0
+1774961665735,840,GetJobs Request,200,OK,GetJobs Stress 1-1,text,false,"The operation lasted too long: It took 840 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,840,0,0
+1774961666014,562,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,562,0,0
+1774961666325,254,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,254,0,0
+1774961666110,483,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,483,0,0
+1774961666145,449,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,449,0,0
+1774961666401,252,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,252,0,2
+1774961666111,598,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,597,0,0
+1774961666247,469,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,469,0,0
+1774961665663,1069,GetJobs Request,200,OK,GetJobs Stress 1-5,text,false,"The operation lasted too long: It took 1,069 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,1069,0,0
+1774961664548,2191,GetJobs Request,200,OK,GetJobs Stress 1-31,text,false,"The operation lasted too long: It took 2,191 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,2191,0,2
+1774961666209,567,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,567,0,0
+1774961666561,270,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,270,0,0
+1774961666576,257,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,257,0,0
+1774961666344,503,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,502,0,0
+1774961663465,3390,GetJobs Request,200,OK,GetJobs Stress 1-7,text,false,"The operation lasted too long: It took 3,390 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,42,42,http://localhost:4000/api/graphql,3390,0,0
+1774961666389,479,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,479,0,0
+1774961665892,1049,GetJobs Request,200,OK,GetJobs Stress 1-18,text,false,"The operation lasted too long: It took 1,049 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,42,42,http://localhost:4000/api/graphql,1049,0,0
+1774961666717,234,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,234,0,0
+1774961666562,477,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,477,0,0
+1774961666594,455,GetJobs Request,200,OK,GetJobs Stress 1-13,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,454,0,0
+1774961666267,802,GetJobs Request,200,OK,GetJobs Stress 1-19,text,false,"The operation lasted too long: It took 802 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,802,0,0
+1774961666577,493,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,493,0,0
+1774961666324,753,GetJobs Request,200,OK,GetJobs Stress 1-2,text,false,"The operation lasted too long: It took 753 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,753,0,0
+1774961666832,250,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,250,0,0
+1774961666833,250,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,250,0,0
+1774961666595,491,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,491,0,0
+1774961663971,3161,GetJobs Request,200,OK,GetJobs Stress 1-3,text,false,"The operation lasted too long: It took 3,161 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,3161,0,0
+1774961664953,2211,GetJobs Request,200,OK,GetJobs Stress 1-33,text,false,"The operation lasted too long: It took 2,211 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,2210,0,5
+1774961666654,536,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,535,0,0
+1774961666709,504,GetJobs Request,200,OK,GetJobs Stress 1-24,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,504,0,0
+1774961666733,481,GetJobs Request,200,OK,GetJobs Stress 1-5,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,481,0,0
+1774961666451,770,GetJobs Request,200,OK,GetJobs Stress 1-21,text,false,"The operation lasted too long: It took 770 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,770,0,0
+1774961666203,1022,GetJobs Request,200,OK,GetJobs Stress 1-23,text,false,"The operation lasted too long: It took 1,022 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1022,0,0
+1774961666450,805,GetJobs Request,200,OK,GetJobs Stress 1-25,text,false,"The operation lasted too long: It took 805 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,804,0,0
+1774961666066,1190,GetJobs Request,200,OK,GetJobs Stress 1-15,text,false,"The operation lasted too long: It took 1,190 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1189,0,0
+1774961666776,487,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,486,0,0
+1774961665154,2140,GetJobs Request,200,OK,GetJobs Stress 1-34,text,false,"The operation lasted too long: It took 2,140 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,2140,0,2
+1774961667078,225,GetJobs Request,200,OK,GetJobs Stress 1-2,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,225,0,0
+1774961667071,261,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,261,0,0
+1774961667072,261,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,261,0,0
+1774961666847,488,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,487,0,0
+1774961667086,255,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,255,0,0
+1774961666856,486,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,486,0,0
+1774961666122,1273,GetJobs Request,200,OK,GetJobs Stress 1-6,text,false,"The operation lasted too long: It took 1,273 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1273,0,0
+1774961667165,241,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,241,0,0
+1774961666580,841,GetJobs Request,200,OK,GetJobs Stress 1-30,text,false,"The operation lasted too long: It took 841 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,841,0,0
+1774961666942,519,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,519,0,0
+1774961666221,1244,GetJobs Request,200,OK,GetJobs Stress 1-29,text,false,"The operation lasted too long: It took 1,244 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1244,0,0
+1774961667226,246,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,246,0,0
+1774961666952,533,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,533,0,0
+1774961666344,1173,GetJobs Request,200,OK,GetJobs Stress 1-9,text,false,"The operation lasted too long: It took 1,173 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1173,0,0
+1774961666302,1230,GetJobs Request,200,OK,GetJobs Stress 1-4,text,false,"The operation lasted too long: It took 1,230 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1230,0,0
+1774961667083,495,GetJobs Request,200,OK,GetJobs Stress 1-22,text,true,,1250,370,45,45,http://localhost:4000/api/graphql,495,0,0
+1774961666740,840,GetJobs Request,200,OK,GetJobs Stress 1-31,text,false,"The operation lasted too long: It took 840 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,45,45,http://localhost:4000/api/graphql,840,0,0
+1774961667333,262,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,261,0,0
+1774961667040,557,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,557,0,0
+1774961664353,3250,GetJobs Request,200,OK,GetJobs Stress 1-17,text,false,"The operation lasted too long: It took 3,250 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,3250,0,0
+1774961667133,476,GetJobs Request,200,OK,GetJobs Stress 1-3,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,476,0,0
+1774961667406,241,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,241,0,0
+1774961667085,587,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,587,0,0
+1774961666869,811,GetJobs Request,200,OK,GetJobs Stress 1-14,text,false,"The operation lasted too long: It took 811 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,811,0,0
+1774961667222,465,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,465,0,0
+1774961667472,244,GetJobs Request,200,OK,GetJobs Stress 1-23,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,244,0,0
+1774961667190,532,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,532,0,0
+1774961665558,2206,GetJobs Request,200,OK,GetJobs Stress 1-36,text,false,"The operation lasted too long: It took 2,206 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,2206,0,3
+1774961667049,755,GetJobs Request,200,OK,GetJobs Stress 1-13,text,false,"The operation lasted too long: It took 755 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,755,0,0
+1774961667256,549,GetJobs Request,200,OK,GetJobs Stress 1-15,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,549,0,0
+1774961666191,1650,GetJobs Request,200,OK,GetJobs Stress 1-28,text,false,"The operation lasted too long: It took 1,650 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,1650,0,0
+1774961667333,513,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,513,0,0
+1774961667342,505,GetJobs Request,200,OK,GetJobs Stress 1-8,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,505,0,0
+1774961667363,491,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,491,0,1
+1774961667263,592,GetJobs Request,200,OK,GetJobs Stress 1-10,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,592,0,0
+1774961667396,489,GetJobs Request,200,OK,GetJobs Stress 1-6,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,489,0,0
+1774961667343,562,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,562,0,0
+1774961667335,571,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,571,0,0
+1774961667422,492,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,492,0,0
+1774961667466,453,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,453,0,0
+1774961667672,250,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,250,0,0
+1774961667486,464,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,464,0,0
+1774961667461,502,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,502,0,0
+1774961667214,789,GetJobs Request,200,OK,GetJobs Stress 1-24,text,false,"The operation lasted too long: It took 789 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,789,0,0
+1774961667761,248,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,248,0,2
+1774961667765,245,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,245,0,0
+1774961667535,498,GetJobs Request,200,OK,GetJobs Stress 1-4,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,498,0,0
+1774961667596,477,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,477,0,0
+1774961667604,484,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,484,0,0
+1774961667581,570,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,570,0,0
+1774961667681,482,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,482,0,0
+1774961665762,2417,GetJobs Request,200,OK,GetJobs Stress 1-37,text,false,"The operation lasted too long: It took 2,417 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,2417,0,1
+1774961667304,878,GetJobs Request,200,OK,GetJobs Stress 1-2,text,false,"The operation lasted too long: It took 878 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,878,0,0
+1774961667951,250,GetJobs Request,200,OK,GetJobs Stress 1-16,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,250,0,0
+1774961667723,479,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,479,0,0
+1774961667215,988,GetJobs Request,200,OK,GetJobs Stress 1-5,text,false,"The operation lasted too long: It took 988 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,988,0,0
+1774961664752,3453,GetJobs Request,200,OK,GetJobs Stress 1-32,text,false,"The operation lasted too long: It took 3,453 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,3452,0,2
+1774961667963,254,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,253,0,4
+1774961667964,257,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,256,0,0
+1774961667688,534,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,533,0,0
+1774961667295,941,GetJobs Request,200,OK,GetJobs Stress 1-34,text,false,"The operation lasted too long: It took 941 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,941,0,0
+1774961667806,442,GetJobs Request,200,OK,GetJobs Stress 1-15,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,442,0,0
+1774961663745,4507,GetJobs Request,200,OK,GetJobs Stress 1-27,text,false,"The operation lasted too long: It took 4,507 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,4507,0,2
+1774961667518,757,GetJobs Request,200,OK,GetJobs Stress 1-9,text,false,"The operation lasted too long: It took 757 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,757,0,0
+1774961667842,489,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,489,0,0
+1774961667847,489,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,489,0,0
+1774961667906,481,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,481,0,0
+1774961668151,243,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,243,0,0
+1774961667597,802,GetJobs Request,200,OK,GetJobs Stress 1-26,text,false,"The operation lasted too long: It took 802 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,44,44,http://localhost:4000/api/graphql,802,0,0
+1774961667915,489,GetJobs Request,200,OK,GetJobs Stress 1-30,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,489,0,0
+1774961668204,237,GetJobs Request,200,OK,GetJobs Stress 1-5,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,237,0,0
+1774961667907,582,GetJobs Request,200,OK,GetJobs Stress 1-12,text,true,,1250,370,44,44,http://localhost:4000/api/graphql,582,0,0
+1774961667920,570,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,570,0,0
+1774961668033,497,GetJobs Request,200,OK,GetJobs Stress 1-4,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,497,0,0
+1774961666157,2386,GetJobs Request,200,OK,GetJobs Stress 1-39,text,false,"The operation lasted too long: It took 2,386 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,2386,0,2
+1774961668011,552,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,552,0,0
+1774961667847,717,GetJobs Request,200,OK,GetJobs Stress 1-8,text,false,"The operation lasted too long: It took 717 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,43,43,http://localhost:4000/api/graphql,717,0,0
+1774961668010,556,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,43,43,http://localhost:4000/api/graphql,555,0,0
+1774961665359,3232,GetJobs Request,200,OK,GetJobs Stress 1-35,text,false,"The operation lasted too long: It took 3,232 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,42,42,http://localhost:4000/api/graphql,3232,0,2
+1774961667923,681,GetJobs Request,200,OK,GetJobs Stress 1-1,text,true,,1250,370,42,42,http://localhost:4000/api/graphql,681,0,0
+1774961667648,960,GetJobs Request,200,OK,GetJobs Stress 1-33,text,false,"The operation lasted too long: It took 960 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,960,0,0
+1774961668074,538,GetJobs Request,200,OK,GetJobs Stress 1-19,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,538,0,0
+1774961668164,483,GetJobs Request,200,OK,GetJobs Stress 1-14,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,483,0,0
+1774961667854,812,GetJobs Request,200,OK,GetJobs Stress 1-45,text,false,"The operation lasted too long: It took 812 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,812,0,0
+1774961668206,466,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,466,0,0
+1774961668221,468,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,468,0,0
+1774961668217,488,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,488,0,0
+1774961668203,503,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,503,0,0
+1774961666015,2716,GetJobs Request,200,OK,GetJobs Stress 1-38,text,false,"The operation lasted too long: It took 2,716 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,2716,0,1
+1774961668179,553,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,553,0,0
+1774961668237,530,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,529,0,0
+1774961668089,718,GetJobs Request,200,OK,GetJobs Stress 1-17,text,false,"The operation lasted too long: It took 718 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,717,0,0
+1774961668222,589,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,589,0,0
+1774961668365,447,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,447,0,2
+1774961668332,491,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,491,0,0
+1774961668163,714,GetJobs Request,200,OK,GetJobs Stress 1-49,text,false,"The operation lasted too long: It took 714 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,714,0,2
+1774961668400,482,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,482,0,0
+1774961668388,497,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,497,0,0
+1774961666403,2482,GetJobs Request,200,OK,GetJobs Stress 1-11,text,false,"The operation lasted too long: It took 2,482 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,2482,0,0
+1774961668336,564,GetJobs Request,200,OK,GetJobs Stress 1-20,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,564,0,0
+1774961668673,234,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,41,41,http://localhost:4000/api/graphql,234,0,0
+1774961668184,741,GetJobs Request,200,OK,GetJobs Stress 1-2,text,false,"The operation lasted too long: It took 741 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,741,0,0
+1774961668202,726,GetJobs Request,200,OK,GetJobs Stress 1-16,text,false,"The operation lasted too long: It took 726 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,41,41,http://localhost:4000/api/graphql,726,0,0
+1774961666760,2179,GetJobs Request,200,OK,GetJobs Stress 1-42,text,false,"The operation lasted too long: It took 2,179 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,2179,0,2
+1774961668253,730,GetJobs Request,200,OK,GetJobs Stress 1-27,text,false,"The operation lasted too long: It took 730 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,730,0,0
+1774961668732,252,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,252,0,0
+1774961668249,749,GetJobs Request,200,OK,GetJobs Stress 1-15,text,false,"The operation lasted too long: It took 749 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,748,0,0
+1774961668531,503,GetJobs Request,200,OK,GetJobs Stress 1-4,text,true,,1250,370,40,40,http://localhost:4000/api/graphql,503,0,0
+1774961667610,1424,GetJobs Request,200,OK,GetJobs Stress 1-3,text,false,"The operation lasted too long: It took 1,424 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,1424,0,0
+1774961667805,1230,GetJobs Request,200,OK,GetJobs Stress 1-13,text,false,"The operation lasted too long: It took 1,230 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,40,40,http://localhost:4000/api/graphql,1230,0,0
+1774961667886,1190,GetJobs Request,200,OK,GetJobs Stress 1-6,text,false,"The operation lasted too long: It took 1,190 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,39,39,http://localhost:4000/api/graphql,1190,0,0
+1774961668491,601,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,600,0,0
+1774961668564,559,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,559,0,0
+1774961668394,730,GetJobs Request,200,OK,GetJobs Stress 1-31,text,false,"The operation lasted too long: It took 730 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,730,0,0
+1774961668592,556,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,556,0,0
+1774961668690,463,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,463,0,0
+1774961668667,487,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,487,0,0
+1774961668941,239,GetJobs Request,200,OK,GetJobs Stress 1-42,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,239,0,0
+1774961668707,478,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,478,0,0
+1774961666962,2229,GetJobs Request,200,OK,GetJobs Stress 1-43,text,false,"The operation lasted too long: It took 2,229 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,2229,0,6
+1774961668705,509,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,508,0,0
+1774961668732,486,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,486,0,0
+1774961667160,2059,GetJobs Request,200,OK,GetJobs Stress 1-44,text,false,"The operation lasted too long: It took 2,059 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,2059,0,7
+1774961668544,677,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,677,0,0
+1774961668768,456,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,456,0,0
+1774961668985,246,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,246,0,0
+1774961668566,742,GetJobs Request,200,OK,GetJobs Stress 1-47,text,false,"The operation lasted too long: It took 742 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,742,0,0
+1774961668824,501,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,501,0,0
+1774961668814,512,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,512,0,0
+1774961668879,492,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,38,38,http://localhost:4000/api/graphql,492,0,0
+1774961668648,724,GetJobs Request,200,OK,GetJobs Stress 1-14,text,false,"The operation lasted too long: It took 724 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,38,38,http://localhost:4000/api/graphql,724,0,0
+1774961668886,490,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,489,0,0
+1774961668927,455,GetJobs Request,200,OK,GetJobs Stress 1-2,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,455,0,0
+1774961668609,782,GetJobs Request,200,OK,GetJobs Stress 1-33,text,false,"The operation lasted too long: It took 782 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,782,0,0
+1774961669150,246,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,246,0,0
+1774961668441,980,GetJobs Request,200,OK,GetJobs Stress 1-5,text,false,"The operation lasted too long: It took 980 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,980,0,0
+1774961669000,443,GetJobs Request,200,OK,GetJobs Stress 1-15,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,443,0,0
+1774961668887,570,GetJobs Request,200,OK,GetJobs Stress 1-11,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,570,0,0
+1774961669215,251,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,251,0,0
+1774961668986,484,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,484,0,0
+1774961669232,244,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,244,0,0
+1774961668813,685,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,685,0,0
+1774961669325,253,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,253,0,0
+1774961668809,803,GetJobs Request,200,OK,GetJobs Stress 1-17,text,false,"The operation lasted too long: It took 803 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,803,0,0
+1774961668886,728,GetJobs Request,200,OK,GetJobs Stress 1-26,text,false,"The operation lasted too long: It took 728 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,728,0,0
+1774961669126,489,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,37,37,http://localhost:4000/api/graphql,489,0,0
+1774961668902,725,GetJobs Request,200,OK,GetJobs Stress 1-20,text,false,"The operation lasted too long: It took 725 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,37,37,http://localhost:4000/api/graphql,724,0,0
+1774961667563,2069,GetJobs Request,200,OK,GetJobs Stress 1-46,text,false,"The operation lasted too long: It took 2,069 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,2069,0,2
+1774961669393,241,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,241,0,0
+1774961669396,245,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,36,36,http://localhost:4000/api/graphql,245,0,0
+1774961668405,1256,GetJobs Request,200,OK,GetJobs Stress 1-30,text,false,"The operation lasted too long: It took 1,256 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,36,36,http://localhost:4000/api/graphql,1256,0,0
+1774961669220,452,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,452,0,0
+1774961669221,456,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,456,0,0
+1774961669093,585,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,585,0,0
+1774961669125,574,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,574,0,0
+1774961669225,479,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,479,0,0
+1774961669155,562,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,562,0,0
+1774961669477,244,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,244,0,0
+1774961669035,703,GetJobs Request,200,OK,GetJobs Stress 1-4,text,false,"The operation lasted too long: It took 703 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,35,35,http://localhost:4000/api/graphql,703,0,0
+1774961669310,438,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,438,0,0
+1774961669036,766,GetJobs Request,200,OK,GetJobs Stress 1-3,text,false,"The operation lasted too long: It took 766 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,35,35,http://localhost:4000/api/graphql,766,0,0
+1774961668909,915,GetJobs Request,200,OK,GetJobs Stress 1-32,text,false,"The operation lasted too long: It took 915 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,35,35,http://localhost:4000/api/graphql,915,0,0
+1774961669579,253,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,35,35,http://localhost:4000/api/graphql,253,0,0
+1774961668613,1224,GetJobs Request,200,OK,GetJobs Stress 1-19,text,false,"The operation lasted too long: It took 1,224 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,35,35,http://localhost:4000/api/graphql,1224,0,0
+1774961669156,696,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,696,0,0
+1774961669613,246,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,245,0,0
+1774961669634,229,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,229,0,0
+1774961669634,240,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,240,0,0
+1774961669423,463,GetJobs Request,200,OK,GetJobs Stress 1-5,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,463,0,0
+1774961669326,565,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,565,0,0
+1774961669383,533,GetJobs Request,200,OK,GetJobs Stress 1-2,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,533,0,0
+1774961669679,238,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,238,0,0
+1774961669372,565,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,565,0,0
+1774961669498,463,GetJobs Request,200,OK,GetJobs Stress 1-21,text,true,,1250,370,34,34,http://localhost:4000/api/graphql,463,0,0
+1774961669443,520,GetJobs Request,200,OK,GetJobs Stress 1-15,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,520,0,0
+1774961669470,494,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,33,33,http://localhost:4000/api/graphql,494,0,0
+1774961669466,499,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,499,0,0
+1774961669722,248,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,248,0,0
+1774961669181,791,GetJobs Request,200,OK,GetJobs Stress 1-42,text,false,"The operation lasted too long: It took 791 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,32,32,http://localhost:4000/api/graphql,791,0,0
+1774961666606,3371,GetJobs Request,200,OK,GetJobs Stress 1-41,text,false,"The operation lasted too long: It took 3,371 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,32,32,http://localhost:4000/api/graphql,3371,0,2
+1774961669863,227,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,227,0,0
+1774961669615,485,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,485,0,0
+1774961669859,242,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,242,0,0
+1774961669875,240,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,240,0,0
+1774961669673,463,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,463,0,0
+1774961669916,237,GetJobs Request,200,OK,GetJobs Stress 1-2,text,true,,1250,370,32,32,http://localhost:4000/api/graphql,237,0,0
+1774961669376,790,GetJobs Request,200,OK,GetJobs Stress 1-7,text,false,"The operation lasted too long: It took 790 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,31,31,http://localhost:4000/api/graphql,790,0,0
+1774961669615,557,GetJobs Request,200,OK,GetJobs Stress 1-26,text,true,,1250,370,31,31,http://localhost:4000/api/graphql,557,0,0
+1774961669748,437,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,437,0,0
+1774961669700,497,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,497,0,0
+1774961669642,556,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,556,0,0
+1774961669971,239,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,239,0,0
+1774961669718,493,GetJobs Request,200,OK,GetJobs Stress 1-18,text,true,,1250,370,30,30,http://localhost:4000/api/graphql,493,0,0
+1774961669964,251,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,251,0,0
+1774961669223,996,GetJobs Request,200,OK,GetJobs Stress 1-39,text,false,"The operation lasted too long: It took 996 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,29,29,http://localhost:4000/api/graphql,996,0,0
+1774961669193,1067,GetJobs Request,200,OK,GetJobs Stress 1-43,text,false,"The operation lasted too long: It took 1,067 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,29,29,http://localhost:4000/api/graphql,1067,0,0
+1774961669802,463,GetJobs Request,200,OK,GetJobs Stress 1-3,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,463,0,0
+1774961669677,592,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,592,0,0
+1774961669705,579,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,29,29,http://localhost:4000/api/graphql,579,0,0
+1774961669457,828,GetJobs Request,200,OK,GetJobs Stress 1-11,text,false,"The operation lasted too long: It took 828 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,29,29,http://localhost:4000/api/graphql,828,0,0
+1774961669853,468,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,468,0,0
+1774961670101,242,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,242,0,0
+1774961670116,241,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,241,0,0
+1774961669887,478,GetJobs Request,200,OK,GetJobs Stress 1-5,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,478,0,0
+1774961669918,451,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,451,0,0
+1774961669187,1190,GetJobs Request,200,OK,GetJobs Stress 1-40,text,false,"The operation lasted too long: It took 1,190 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,28,28,http://localhost:4000/api/graphql,1190,0,0
+1774961669892,496,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,496,0,0
+1774961669832,584,GetJobs Request,200,OK,GetJobs Stress 1-28,text,true,,1250,370,28,28,http://localhost:4000/api/graphql,584,0,0
+1774961669938,479,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,479,0,0
+1774961670198,242,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,242,0,0
+1774961669979,505,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,505,0,0
+1774961669739,770,GetJobs Request,200,OK,GetJobs Stress 1-4,text,false,"The operation lasted too long: It took 770 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,27,27,http://localhost:4000/api/graphql,770,0,0
+1774961670102,486,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,486,0,0
+1774961670137,455,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,455,0,0
+1774961670093,518,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,518,0,0
+1774961670185,443,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,443,0,0
+1774961670167,484,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,484,0,0
+1774961670220,449,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,449,0,0
+1774961670199,482,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,482,0,0
+1774961670215,496,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,496,0,0
+1774961670261,506,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,506,0,0
+1774961670270,499,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,499,0,0
+1774961670211,566,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,566,0,0
+1774961670285,499,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,499,0,0
+1774961669972,813,GetJobs Request,200,OK,GetJobs Stress 1-42,text,false,"The operation lasted too long: It took 813 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,27,27,http://localhost:4000/api/graphql,813,0,0
+1774961669825,990,GetJobs Request,200,OK,GetJobs Stress 1-32,text,false,"The operation lasted too long: It took 990 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,27,27,http://localhost:4000/api/graphql,989,0,0
+1774961670370,446,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,446,0,0
+1774961670365,463,GetJobs Request,200,OK,GetJobs Stress 1-5,text,true,,1250,370,27,27,http://localhost:4000/api/graphql,463,0,0
+1774961670358,473,GetJobs Request,200,OK,GetJobs Stress 1-33,text,true,,1250,370,26,26,http://localhost:4000/api/graphql,473,0,0
+1774961670612,227,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,227,0,0
+1774961670321,540,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,540,0,0
+1774961670681,242,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,242,0,0
+1774961670389,574,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,574,0,0
+1774961670712,252,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,252,0,0
+1774961670510,462,GetJobs Request,200,OK,GetJobs Stress 1-4,text,true,,1250,370,25,25,http://localhost:4000/api/graphql,462,0,0
+1774961670484,491,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,491,0,0
+1774961670418,560,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,560,0,0
+1774961670785,243,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,243,0,0
+1774961670593,451,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,451,0,0
+1774961670840,228,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,227,0,0
+1774961670628,442,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,441,0,0
+1774961670589,481,GetJobs Request,200,OK,GetJobs Stress 1-17,text,true,,1250,370,24,24,http://localhost:4000/api/graphql,481,0,0
+1774961670378,723,GetJobs Request,200,OK,GetJobs Stress 1-40,text,false,"The operation lasted too long: It took 723 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,23,23,http://localhost:4000/api/graphql,723,0,0
+1774961670652,486,GetJobs Request,200,OK,GetJobs Stress 1-7,text,true,,1250,370,23,23,http://localhost:4000/api/graphql,486,0,0
+1774961670815,445,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,22,22,http://localhost:4000/api/graphql,445,0,0
+1774961670786,490,GetJobs Request,200,OK,GetJobs Stress 1-42,text,true,,1250,370,22,22,http://localhost:4000/api/graphql,490,0,0
+1774961671028,249,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,22,22,http://localhost:4000/api/graphql,249,0,0
+1774961670816,471,GetJobs Request,200,OK,GetJobs Stress 1-29,text,true,,1250,370,22,22,http://localhost:4000/api/graphql,471,0,0
+1774961670861,460,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,460,0,0
+1774961670767,561,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,561,0,0
+1774961670343,994,GetJobs Request,200,OK,GetJobs Stress 1-31,text,false,"The operation lasted too long: It took 994 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,21,21,http://localhost:4000/api/graphql,994,0,0
+1774961670770,573,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,573,0,0
+1774961669965,1432,GetJobs Request,200,OK,GetJobs Stress 1-48,text,false,"The operation lasted too long: It took 1,432 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,21,21,http://localhost:4000/api/graphql,1432,0,0
+1774961670965,498,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,498,0,0
+1774961670979,499,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,499,0,0
+1774961670265,1214,GetJobs Request,200,OK,GetJobs Stress 1-3,text,false,"The operation lasted too long: It took 1,214 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,21,21,http://localhost:4000/api/graphql,1214,0,0
+1774961670975,506,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,506,0,0
+1774961670924,570,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,570,0,0
+1774961671045,465,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,464,0,0
+1774961671070,441,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,441,0,0
+1774961670777,748,GetJobs Request,200,OK,GetJobs Stress 1-27,text,false,"The operation lasted too long: It took 748 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,21,21,http://localhost:4000/api/graphql,748,0,0
+1774961671277,249,GetJobs Request,200,OK,GetJobs Stress 1-42,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,249,0,0
+1774961671068,488,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,488,0,0
+1774961671102,571,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,571,0,0
+1774961671322,461,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,461,0,0
+1774961670669,1135,GetJobs Request,200,OK,GetJobs Stress 1-39,text,false,"The operation lasted too long: It took 1,135 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,21,21,http://localhost:4000/api/graphql,1135,0,0
+1774961671329,502,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,501,0,0
+1774961671344,510,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,510,0,0
+1774961671278,578,GetJobs Request,200,OK,GetJobs Stress 1-34,text,true,,1250,370,21,21,http://localhost:4000/api/graphql,578,0,0
+1774961671397,493,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,20,20,http://localhost:4000/api/graphql,493,0,0
+1774961671338,568,GetJobs Request,200,OK,GetJobs Stress 1-31,text,true,,1250,370,20,20,http://localhost:4000/api/graphql,568,0,0
+1774961670964,987,GetJobs Request,200,OK,GetJobs Stress 1-50,text,false,"The operation lasted too long: It took 987 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,19,19,http://localhost:4000/api/graphql,987,0,0
+1774961671510,442,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,19,19,http://localhost:4000/api/graphql,442,0,0
+1774961671464,493,GetJobs Request,200,OK,GetJobs Stress 1-37,text,true,,1250,370,19,19,http://localhost:4000/api/graphql,493,0,0
+1774961671481,490,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,18,18,http://localhost:4000/api/graphql,490,0,0
+1774961671261,748,GetJobs Request,200,OK,GetJobs Stress 1-32,text,false,"The operation lasted too long: It took 748 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,18,18,http://localhost:4000/api/graphql,748,0,0
+1774961671556,487,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,18,18,http://localhost:4000/api/graphql,487,0,0
+1774961671494,562,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,18,18,http://localhost:4000/api/graphql,562,0,0
+1774961671526,560,GetJobs Request,200,OK,GetJobs Stress 1-27,text,true,,1250,370,18,18,http://localhost:4000/api/graphql,560,0,0
+1774961671674,496,GetJobs Request,200,OK,GetJobs Stress 1-40,text,true,,1250,370,17,17,http://localhost:4000/api/graphql,496,0,0
+1774961671480,699,GetJobs Request,200,OK,GetJobs Stress 1-3,text,true,,1250,370,16,16,http://localhost:4000/api/graphql,699,0,0
+1774961671511,674,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,674,0,0
+1774961671783,472,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,472,0,0
+1774961671831,498,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,498,0,0
+1774961671855,487,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,487,0,0
+1774961671890,486,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,485,0,0
+1774961671952,435,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,435,0,0
+1774961671527,880,GetJobs Request,200,OK,GetJobs Stress 1-42,text,false,"The operation lasted too long: It took 880 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,15,15,http://localhost:4000/api/graphql,880,0,0
+1774961670440,1969,GetJobs Request,200,OK,GetJobs Stress 1-36,text,false,"The operation lasted too long: It took 1,969 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,15,15,http://localhost:4000/api/graphql,1969,0,0
+1774961672010,458,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,458,0,0
+1774961672043,491,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,491,0,0
+1774961672056,493,GetJobs Request,200,OK,GetJobs Stress 1-35,text,true,,1250,370,15,15,http://localhost:4000/api/graphql,493,0,0
+1774961671952,599,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,14,14,http://localhost:4000/api/graphql,599,0,0
+1774961671805,747,GetJobs Request,200,OK,GetJobs Stress 1-39,text,false,"The operation lasted too long: It took 747 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,14,14,http://localhost:4000/api/graphql,747,0,0
+1774961672329,251,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,14,14,http://localhost:4000/api/graphql,251,0,0
+1774961672186,451,GetJobs Request,200,OK,GetJobs Stress 1-47,text,true,,1250,370,14,14,http://localhost:4000/api/graphql,451,0,0
+1774961671971,717,GetJobs Request,200,OK,GetJobs Stress 1-41,text,false,"The operation lasted too long: It took 717 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,13,13,http://localhost:4000/api/graphql,717,0,0
+1774961672256,459,GetJobs Request,200,OK,GetJobs Stress 1-45,text,true,,1250,370,13,13,http://localhost:4000/api/graphql,459,0,0
+1774961671479,1268,GetJobs Request,200,OK,GetJobs Stress 1-49,text,false,"The operation lasted too long: It took 1,268 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,12,12,http://localhost:4000/api/graphql,1268,0,0
+1774961672342,483,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,483,0,0
+1774961672376,483,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,483,0,0
+1774961672408,479,GetJobs Request,200,OK,GetJobs Stress 1-42,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,479,0,0
+1774961672388,516,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,516,0,0
+1774961672469,444,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,444,0,0
+1774961672551,452,GetJobs Request,200,OK,GetJobs Stress 1-38,text,true,,1250,370,12,12,http://localhost:4000/api/graphql,451,0,0
+1774961672535,482,GetJobs Request,200,OK,GetJobs Stress 1-46,text,true,,1250,370,11,11,http://localhost:4000/api/graphql,482,0,0
+1774961672553,496,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,496,0,0
+1774961672826,253,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,253,0,0
+1774961672689,481,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,481,0,0
+1774961672748,494,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,494,0,0
+1774961672410,867,GetJobs Request,200,OK,GetJobs Stress 1-36,text,false,"The operation lasted too long: It took 867 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,10,10,http://localhost:4000/api/graphql,867,0,0
+1774961672904,439,GetJobs Request,200,OK,GetJobs Stress 1-50,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,439,0,0
+1774961672859,491,GetJobs Request,200,OK,GetJobs Stress 1-48,text,true,,1250,370,10,10,http://localhost:4000/api/graphql,491,0,0
+1774961672914,455,GetJobs Request,200,OK,GetJobs Stress 1-32,text,true,,1250,370,9,9,http://localhost:4000/api/graphql,455,0,0
+1774961673080,483,GetJobs Request,200,OK,GetJobs Stress 1-44,text,true,,1250,370,8,8,http://localhost:4000/api/graphql,483,0,0
+1774961673050,585,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,7,7,http://localhost:4000/api/graphql,585,0,0
+1774961672888,814,GetJobs Request,200,OK,GetJobs Stress 1-42,text,false,"The operation lasted too long: It took 814 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,7,7,http://localhost:4000/api/graphql,813,0,0
+1774961673278,485,GetJobs Request,200,OK,GetJobs Stress 1-36,text,true,,1250,370,7,7,http://localhost:4000/api/graphql,485,0,0
+1774961673243,575,GetJobs Request,200,OK,GetJobs Stress 1-49,text,true,,1250,370,6,6,http://localhost:4000/api/graphql,575,0,0
+1774961672581,1418,GetJobs Request,200,OK,GetJobs Stress 1-43,text,false,"The operation lasted too long: It took 1,418 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,6,6,http://localhost:4000/api/graphql,1418,0,0
+1774961673635,497,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,6,6,http://localhost:4000/api/graphql,497,0,0
+1774961673702,481,GetJobs Request,200,OK,GetJobs Stress 1-42,text,true,,1250,370,6,6,http://localhost:4000/api/graphql,481,0,0
+1774961674132,251,GetJobs Request,200,OK,GetJobs Stress 1-39,text,true,,1250,370,5,5,http://localhost:4000/api/graphql,251,0,0
+1774961673171,1216,GetJobs Request,200,OK,GetJobs Stress 1-41,text,false,"The operation lasted too long: It took 1,216 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,4,4,http://localhost:4000/api/graphql,1216,0,0
+1774961673343,1151,GetJobs Request,200,OK,GetJobs Stress 1-50,text,false,"The operation lasted too long: It took 1,151 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,4,4,http://localhost:4000/api/graphql,1151,0,0
+1774961673818,830,GetJobs Request,200,OK,GetJobs Stress 1-49,text,false,"The operation lasted too long: It took 830 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,3,3,http://localhost:4000/api/graphql,830,0,0
+1774961674387,491,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,2,2,http://localhost:4000/api/graphql,491,0,0
+1774961673999,1055,GetJobs Request,200,OK,GetJobs Stress 1-43,text,false,"The operation lasted too long: It took 1,055 milliseconds, but should not have lasted longer than 700 milliseconds.",1250,370,2,2,http://localhost:4000/api/graphql,1055,0,0
+1774961674878,482,GetJobs Request,200,OK,GetJobs Stress 1-41,text,true,,1250,370,2,2,http://localhost:4000/api/graphql,482,0,0
+1774961675055,494,GetJobs Request,200,OK,GetJobs Stress 1-43,text,true,,1250,370,1,1,http://localhost:4000/api/graphql,494,0,0

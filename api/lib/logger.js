@@ -9,26 +9,34 @@ const colors = {
   debug: '\x1b[90m', // Gray
 };
 
+import { traceStorage } from './middleware/trace.js';
+
 function getTimestamp() {
   return new Date().toISOString();
 }
 
+function formatMsg(msg) {
+  const reqId = traceStorage.getStore();
+  const idPrefix = reqId ? `[${reqId.slice(0, 8)}] ` : '';
+  return `${idPrefix}${msg}`;
+}
+
 const logger = {
   info: (msg, ...args) => {
-    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.info}INFO${colors.reset}: ${msg}`, ...args);
+    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.info}INFO${colors.reset}: ${formatMsg(msg)}`, ...args);
   },
   success: (msg, ...args) => {
-    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.success}SUCCESS${colors.reset}: ${msg}`, ...args);
+    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.success}SUCCESS${colors.reset}: ${formatMsg(msg)}`, ...args);
   },
   warn: (msg, ...args) => {
-    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.warn}WARN${colors.reset}: ${msg}`, ...args);
+    console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.warn}WARN${colors.reset}: ${formatMsg(msg)}`, ...args);
   },
   error: (msg, ...args) => {
-    console.error(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.error}ERROR${colors.reset}: ${msg}`, ...args);
+    console.error(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.error}ERROR${colors.reset}: ${formatMsg(msg)}`, ...args);
   },
   debug: (msg, ...args) => {
     if (process.env.NODE_ENV !== 'production') {
-      console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.debug}DEBUG${colors.reset}: ${msg}`, ...args);
+      console.log(`${colors.dim}[${getTimestamp()}]${colors.reset} ${colors.debug}DEBUG${colors.reset}: ${formatMsg(msg)}`, ...args);
     }
   },
 };

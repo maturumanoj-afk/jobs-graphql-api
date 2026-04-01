@@ -1,5 +1,11 @@
 import pool from './db.js';
 import logger from './logger.js';
+import { LRUCache } from 'lru-cache';
+
+const cache = new LRUCache({
+  max: 500,
+  ttl: 1000 * 60, // 1 minute TTL for query results
+});
 
 const ITEMS_PER_PAGE = 10;
 
@@ -26,6 +32,12 @@ const resolvers = {
   // ── Queries ────────────────────────────────────────────────────────────────
 
   jobs: async ({ query = '', status, department, page = 1, pageSize = ITEMS_PER_PAGE }) => {
+    const cacheKey = `jobs:${query}:${status}:${department}:${page}:${pageSize}`;
+    if (cache.has(cacheKey)) {
+      logger.debug(`Cache hit for jobs query: ${cacheKey}`);
+      return cache.get(cacheKey);
+    }
+
     logger.info(`jobs query: query="${query}", status="${status}", dept="${department}", page=${page}`);
     const offset = (page - 1) * pageSize;
     const search = `%${query}%`;
@@ -47,53 +59,66 @@ const resolvers = {
 
     const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : '';
 
-    const countRes = await pool.query(
-      `SELECT COUNT(*) FROM jobs_library j ${where}`,
-      params,
-    );
-    const totalCount = parseInt(countRes.rows[0].count, 10);
-    const totalPages = Math.ceil(totalCount / pageSize);
-
+    // Optimized: Use window function COUNT(*) OVER() to get data and total count in ONE round-trip
     const dataRes = await pool.query(
-      `SELECT * FROM jobs_library j ${where} ORDER BY j.created_at DESC LIMIT $${idx} OFFSET $${idx + 1}`,
+      `SELECT *, COUNT(*) OVER() AS full_count 
+       FROM jobs_library j ${where} 
+       ORDER BY j.created_at DESC 
+       LIMIT $${idx} OFFSET $${idx + 1}`,
       [...params, pageSize, offset],
     );
 
-    logger.debug(`Fetched ${dataRes.rows.length} jobs for page ${page}`);
-    return {
+    const totalCount = dataRes.rows.length > 0 ? parseInt(dataRes.rows[0].full_count, 10) : 0;
+    const totalPages = Math.ceil(totalCount / pageSize);
+
+    logger.debug(`Fetched ${dataRes.rows.length} jobs (Total: ${totalCount}) for page ${page}`);
+    const result = {
       jobs: dataRes.rows.map(toJob),
       totalCount,
       totalPages,
     };
+    cache.set(cacheKey, result);
+    return result;
   },
 
-  job: async ({ id }) => {
-    logger.info(`job query: id="${id}"`);
-    const res = await pool.query('SELECT * FROM jobs_library WHERE id = $1', [id]);
-    const job = res.rows[0];
-    if (job) logger.debug(`Found job: ${job.job_title}`);
-    else logger.warn(`Job not found: ${id}`);
+  job: async ({ id }, context) => {
+    logger.info(`job query (DataLoader): id="${id}"`);
+    const job = await context.jobLoader.load(id);
+    if (!job) logger.warn(`Job not found: ${id}`);
     return job ? toJob(job) : null;
   },
 
   departments: async () => {
+    const cacheKey = 'departments';
+    if (cache.has(cacheKey)) return cache.get(cacheKey);
+
     logger.info('departments query');
-    const res = await pool.query(
-      'SELECT DISTINCT department FROM jobs_library ORDER BY department',
-    );
-    return res.rows.map((r) => r.department);
+    const res = await pool.query('SELECT DISTINCT department FROM jobs_library ORDER BY department');
+    const result = res.rows.map((r) => r.department);
+    cache.set(cacheKey, result);
+    return result;
   },
 
   levels: async () => {
+    const cacheKey = 'levels';
+    if (cache.has(cacheKey)) return cache.get(cacheKey);
+
     const res = await pool.query(
       "SELECT DISTINCT level FROM jobs_library ORDER BY ARRAY_POSITION(ARRAY['Junior','Mid','Senior','Lead','Principal','Executive'], level)",
     );
-    return res.rows.map((r) => r.level);
+    const result = res.rows.map((r) => r.level);
+    cache.set(cacheKey, result);
+    return result;
   },
 
   statuses: async () => {
+    const cacheKey = 'statuses';
+    if (cache.has(cacheKey)) return cache.get(cacheKey);
+
     const res = await pool.query('SELECT DISTINCT status FROM jobs_library ORDER BY status');
-    return res.rows.map((r) => r.status);
+    const result = res.rows.map((r) => r.status);
+    cache.set(cacheKey, result);
+    return result;
   },
 
   // ── Mutations ──────────────────────────────────────────────────────────────
@@ -121,6 +146,7 @@ const resolvers = {
          compaRatio, status, employmentType, remoteEligible, headcountBudget],
       );
       logger.success(`Created job: ${jobTitle} (${res.rows[0].id})`);
+      cache.clear(); // invalidate cache on mutation
       return toJob(res.rows[0]);
     } catch (err) {
       logger.error(`Failed to create job: ${jobTitle}`, err);
@@ -156,6 +182,7 @@ const resolvers = {
         throw new Error('Job not found');
       }
       logger.success(`Updated job: ${id}`);
+      cache.clear(); // invalidate cache on mutation
       return toJob(res.rows[0]);
     } catch (err) {
       logger.error(`Failed to update job: ${id}`, err);
@@ -168,8 +195,12 @@ const resolvers = {
     try {
       const res = await pool.query('DELETE FROM jobs_library WHERE id=$1', [id]);
       const deleted = res.rowCount > 0;
-      if (deleted) logger.success(`Deleted job: ${id}`);
-      else logger.warn(`Delete failed: job ${id} not found`);
+      if (deleted) {
+        logger.success(`Deleted job: ${id}`);
+        cache.clear(); // invalidate cache on mutation
+      } else {
+        logger.warn(`Delete failed: job ${id} not found`);
+      }
       return deleted;
     } catch (err) {
       logger.error(`Failed to delete job: ${id}`, err);
